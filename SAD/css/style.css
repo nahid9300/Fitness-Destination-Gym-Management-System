@@ -1,0 +1,267 @@
+.bgrnd {
+    background-image: url(../images/200229.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.lg_box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 500px;
+    height: 45%;
+    padding-top: 35px;
+    padding-left: 11%;
+    background-color: #36353a;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.inpt {
+    border-color: #00ff2b;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.inpt:focus {
+    background-color: antiquewhite;
+}
+
+.inpt2 {
+    border-color: cyan;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.inpt2:focus {
+    background-color: antiquewhite;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #007bff;
+    margin-top: 15px;
+    background-image: linear-gradient(#0c0c0c, #00b8ff, #5b0080);
+    margin-left: 15%;
+}
+
+h4 {
+    margin-left: 53px;
+    font-weight: 700;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+    font-size: 35px;
+    color: white;
+    margin-top: 7px;
+}
+
+.fav-div {
+    background-color: #736d82;
+    width: 13%;
+    border-radius: 51px;
+    height: 51px;
+    padding-left: 15px;
+    top: -25px;
+    position: absolute;
+    left: 210px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00ff1f;
+
+}
+
+header {
+    height: 110px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.logo > img {
+    width: 155px;
+    margin-top: -15px;
+    position: relative;
+}
+
+.nav_bar > ul > li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav_bar > ul > li > a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: -8px;
+    margin-right: 22px;
+    color: aquamarine;
+}
+
+.nav_bar > ul > .active > a {
+    color: #00c1fb;
+}
+
+.another_active {
+    color: aquamarine;
+}
+
+.nav_bar > ul > li > a:hover {
+    color: #8594a0;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    font-weight: bolder;
+    font-style: italic;
+    color: aliceblue;
+
+}
+
+.nav_bar {
+    float: right;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #202525;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellowgreen;
+    border-radius: 20px;
+}
+
+.flex-container > div {
+    width: 139px;
+    margin: 10px;
+    text-align: center;
+    line-height: 130px;
+    font-size: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: cyan;
+    border-width: 2px;
+
+}
+
+.student-info:hover {
+    background-color: #8594a0;
+
+}
+
+.student-info {
+    background-color: #3d6165;
+
+}
+
+.flex-container > .student-info > a {
+    color: #e1e8ec;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/*.flex-container>.student-info> .fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+    font-size: 35px;
+    color: white;
+    margin-top: 7px;
+    position: absolute;
+    margin-left: 35px;
+}*/
+.stu-icn {
+    position: absolute;
+    margin-top: -30px;
+    padding-left: 50px;
+}
+
+.developer {
+    color: lightgreen;
+    margin-top: 15%;
+}
+
+.container > h4 {
+    color: white;
+}
+
+.neon {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #9acd32;
+    border-radius: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #0e0d0d;
+}
+
+h1 {
+    color: #9acd32;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.insert {
+    float: right;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+.back {
+    float: left;
+}
+
+.mrg {
+    margin-bottom: 5px;
+}
+
+header {
+    background-color: #202525;
+    margin-top: 1%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.sbmt {
+    margin-left: 10%;
+}
+
+.form-control {
+    width: 40%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    color: #9acd32;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+.inser {
+    float: right;
+    color: aqua;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
